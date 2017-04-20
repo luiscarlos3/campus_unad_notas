@@ -63,6 +63,7 @@
             this.resultado = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.erropErrores)).BeginInit();
             this.SuspendLayout();
             // 
@@ -358,11 +359,21 @@
             this.label15.TabIndex = 39;
             this.label15.Text = "label15";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(594, 80);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(41, 13);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "label17";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 378);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.resultado);
@@ -440,6 +451,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label17;
     }
 }
 

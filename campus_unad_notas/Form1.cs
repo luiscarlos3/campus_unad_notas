@@ -73,6 +73,8 @@ namespace campus_unad_notas
             resultado.Text = estudiante.sumatotalpuntos(int.Parse(txtpuntosone.Text), int.Parse(txtpuntostwo.Text)).ToString();
             label16.Text = estudiante.calculanota(resultado.Text);
             label15.Text = estudiante.estado(label16.Text);
+            DateTime fecha = DateTime.Now;
+            label17.Text = fecha.ToString();
             limpiar();
             
         }

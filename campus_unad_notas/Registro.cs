@@ -63,6 +63,7 @@ namespace campus_unad_notas.Clases
             {
                 return ("no aprobado");
             }
+
         }
     }
 }
